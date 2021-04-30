@@ -1,7 +1,7 @@
 # CSC 231 Course Project
 # Name: Arithmetic Arranger
 # Date: April 29, 2021
-# AWA
+# Author: AWA
 
 def arithmetic_arranger(expression: list[str], result: bool = False) -> str:
     if len(expression) > 7:
@@ -53,5 +53,5 @@ def arithmetic_arranger(expression: list[str], result: bool = False) -> str:
     
       
 
-
+# Testing
 print(arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True))
